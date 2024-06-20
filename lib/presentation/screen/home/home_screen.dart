@@ -4,6 +4,9 @@ import 'package:go_router/go_router.dart';
 import '../../../config/menu/menu_items.dart';
 
 class HomeScreen extends StatelessWidget {
+  //Gorute
+  static const String nameGoRoute = 'HomeScreen';
+
   const HomeScreen({super.key});
 
   @override
