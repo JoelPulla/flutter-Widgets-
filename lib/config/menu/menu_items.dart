@@ -20,19 +20,19 @@ const appMenuItems = <MenuItem>[
   MenuItem(
     title: 'Buttoms',
     subtitle: 'tipos de botton',
-    link: '/button',
+    link: '/buttons',
     icon: Icons.smart_button_outlined,
   ),
   MenuItem(
     title: 'tarjetas',
     subtitle: 'contenedor estilizado ',
-    link: '/card',
+    link: '/cards',
     icon: Icons.credit_card,
   ),
   MenuItem(
     title: 'Stack',
     subtitle: 'Widgets encima de mas widgets ',
-    link: '/card',
+    link: '/stacks',
     icon: Icons.list_alt,
   ),
 ];

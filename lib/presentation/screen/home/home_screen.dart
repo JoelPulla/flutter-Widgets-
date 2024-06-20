@@ -22,9 +22,9 @@ class _HomeView extends StatelessWidget {
     return ListView.builder(
       itemCount: appMenuItems.length,
       itemBuilder: (context, index) {
-        final itemData = appMenuItems[index];
+        final menuData = appMenuItems[index];
 
-        return _CustomListTitle(todos: itemData);
+        return _CustomListTitle(menuData: menuData);
       },
     );
   }
@@ -32,21 +32,23 @@ class _HomeView extends StatelessWidget {
 
 class _CustomListTitle extends StatelessWidget {
   const _CustomListTitle({
-    required this.todos,
+    required this.menuData,
   });
 
-  final MenuItem todos;
+  final MenuItem menuData;
 
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).colorScheme;
 
     return ListTile(
-      leading: Icon(todos.icon, color: colors.primary),
-      title: Text(todos.title),
-      subtitle: Text(todos.subtitle),
+      leading: Icon(menuData.icon, color: colors.primary),
+      title: Text(menuData.title),
+      subtitle: Text(menuData.subtitle),
       trailing: Icon(Icons.arrow_forward, color: colors.primary),
-      onTap: () {},
+      onTap: () {
+        Navigator.pushNamed(context, menuData.link);
+      },
     );
   }
 }
