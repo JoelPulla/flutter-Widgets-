@@ -18,9 +18,9 @@ class MenuItem {
 // variable de datos
 const appMenuItems = <MenuItem>[
   MenuItem(
-    title: '/buttons',
-    subtitle: 'varios',
-    link: 'sss',
+    title: 'Buttoms',
+    subtitle: 'tipos de botton',
+    link: '/button',
     icon: Icons.smart_button_outlined,
   ),
   MenuItem(
@@ -28,5 +28,11 @@ const appMenuItems = <MenuItem>[
     subtitle: 'contenedor estilizado ',
     link: '/card',
     icon: Icons.credit_card,
+  ),
+  MenuItem(
+    title: 'Stack',
+    subtitle: 'Widgets encima de mas widgets ',
+    link: '/card',
+    icon: Icons.list_alt,
   ),
 ];

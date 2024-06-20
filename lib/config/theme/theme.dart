@@ -17,7 +17,7 @@ class AppTheme {
   //constructor para recivir el dato
   AppTheme({
     this.selectedColor = 0,
-  }) : assert(selectedColor < 0, 'Selected color must be greather the 0');
+  }) : assert(selectedColor >= 0, 'Selected color must be greather the 0');
 
   // clase implisita con las propiedadtes del thedata
   ThemeData getTheme() => ThemeData(
