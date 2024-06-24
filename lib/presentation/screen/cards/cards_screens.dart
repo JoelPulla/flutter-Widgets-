@@ -115,7 +115,7 @@ class _CardType3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colors = Theme.of(context).colorScheme;
+    //final colors = Theme.of(context).colorScheme;
     return Padding(
       padding: const EdgeInsets.all(20),
       child: Card(
@@ -130,7 +130,7 @@ class _CardType3 extends StatelessWidget {
               fit: BoxFit.cover,
             ),
             Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
                     Colors.black,

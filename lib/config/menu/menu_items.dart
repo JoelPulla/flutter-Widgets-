@@ -35,4 +35,40 @@ const appMenuItems = <MenuItem>[
     link: '/stacks',
     icon: Icons.list_alt,
   ),
+  MenuItem(
+    title: 'Animaciones',
+    subtitle: 'Widgets de animaciones ',
+    link: '/animated_screen',
+    icon: Icons.animation,
+  ),
+  MenuItem(
+    title: 'Tutorial intro',
+    subtitle: 'animaciones de nuestro inico de app',
+    link: '/app_tutorial',
+    icon: Icons.tips_and_updates_rounded,
+  ),
+  MenuItem(
+    title: 'Infinite Scroll',
+    subtitle: 'Scroll infinito de una pantalla',
+    link: '/infinite_scroll',
+    icon: Icons.find_replace_outlined,
+  ),
+  MenuItem(
+    title: 'Progres',
+    subtitle: 'Barra de progreso en lateral, lineales y circulares',
+    link: '/progres_screen',
+    icon: Icons.linear_scale_rounded,
+  ),
+  MenuItem(
+    title: 'Snackbar',
+    subtitle: 'Por el momento no se el detalle de lo que hace este Widget ',
+    link: '/snackbar_screen',
+    icon: Icons.backup_rounded,
+  ),
+  MenuItem(
+    title: 'Controles Estilizados',
+    subtitle: 'Falta detalle',
+    link: '/ui_controls_screen',
+    icon: Icons.star,
+  ),
 ];

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppTutorial extends StatelessWidget {
   // definimos nombre de la ruta
-  static const name = 'app_titorial';
+  static const name = 'app_tutorial';
 
   const AppTutorial({super.key});
 

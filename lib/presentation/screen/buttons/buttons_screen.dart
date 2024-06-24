@@ -80,7 +80,7 @@ class _ButtonsView extends StatelessWidget {
               child: const Text('TextButton'),
             ),
 
-            //TODO: CUSTOM BUTTON
+            // CUSTOM BUTTON
 
             IconButton(
               onPressed: () {},
