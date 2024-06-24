@@ -61,7 +61,7 @@ const appMenuItems = <MenuItem>[
   ),
   MenuItem(
     title: 'Snackbar',
-    subtitle: 'Por el momento no se el detalle de lo que hace este Widget ',
+    subtitle: 'Indicadores en pantalla',
     link: '/snackbar_screen',
     icon: Icons.backup_rounded,
   ),
